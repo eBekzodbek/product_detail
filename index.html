@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dali-product</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="/fontawesome/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        
+        .form-control {
+            border-radius: 2px;
+            border: none;
+            border-bottom: 1px solid #f3c737;
+            box-shadow: 0 1px 5px -2px rgba(0,0,0,.2);
+        }
+
+        .form-select {
+            border-radius: 2px;
+            border: none;
+            border-bottom: 1px solid #f3c737;
+            box-shadow: 0 1px 5px -2px rgba(0,0,0,.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="accordion mt-3" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 mt-3">
+                            <input type="text" name="name" class="form-control" id="" placeholder="Наименование">
+                        </div>
+                        <div class="col-12 col-lg-6 mt-3">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected disabled value="">Tип упаковки</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                              </select>
+                            <!-- <input type="text" name="text2" class="form-control" id="" value="test2"> -->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 col-lg-2 mt-3">
+                            <input type="text" name="name" class="form-control" placeholder="Длина(cм)">
+                        </div>
+                        <div class="col-6 col-lg-2 mt-3">
+                            <input type="text" name="text2" class="form-control" placeholder="Ширина(cм)">
+                        </div>
+                        <div class="col-6 col-lg-2 mt-3">
+                            <input type="text" name="text2" class="form-control" placeholder="Высота(cм)">
+                        </div>
+                        <div class="col-6 col-lg-3 mt-3">
+                            <input type="text" name="text2" class="form-control" placeholder="Обем еденицы(м3)" disabled>
+                        </div>
+                        <div class="col-12 col-lg-3 mt-3">
+                            <input type="text" name="text2" class="form-control" placeholder="Вес еденицы(кг)">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 col-lg-4 mt-3">
+                            <input type="text" name="name" class="form-control" id="" placeholder="Количество">
+                        </div>
+                        <div class="col-6 col-lg-4 mt-3">
+                            <input type="text" name="text2" class="form-control" placeholder="Обший обем(м3)" disabled>
+                        </div>
+                        <div class="col-12 col-lg-4 mt-3">
+                            <input type="text" name="text2" class="form-control" placeholder="Обший весь" disabled>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-6 mt-3">
+                <input type="text" name="name" class="form-control" id="" placeholder="Наименование">
+            </div>
+            <div class="col-12 col-lg-6 mt-3">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected disabled value="">Tип упаковки</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                <!-- <input type="text" name="text2" class="form-control" id="" value="test2"> -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 col-lg-2 mt-3">
+                <input type="text" name="name" class="form-control" placeholder="Длина(cм)">
+            </div>
+            <div class="col-6 col-lg-2 mt-3">
+                <input type="text" name="text2" class="form-control" placeholder="Ширина(cм)">
+            </div>
+            <div class="col-6 col-lg-2 mt-3">
+                <input type="text" name="text2" class="form-control" placeholder="Высота(cм)">
+            </div>
+            <div class="col-6 col-lg-3 mt-3">
+                <input type="text" name="text2" class="form-control" placeholder="Обем еденицы(м3)" disabled>
+            </div>
+            <div class="col-12 col-lg-3 mt-3">
+                <input type="text" name="text2" class="form-control" placeholder="Вес еденицы(кг)">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 col-lg-4 mt-3">
+                <input type="text" name="name" class="form-control" id="" placeholder="Количество">
+            </div>
+            <div class="col-6 col-lg-4 mt-3">
+                <input type="text" name="text2" class="form-control" placeholder="Обший обем(м3)" disabled>
+            </div>
+            <div class="col-12 col-lg-4 mt-3">
+                <input type="text" name="text2" class="form-control" placeholder="Обший весь" disabled>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <label for="">Итог</label>
+            <div class="col-10 col-lg-11">
+                <div class="row">
+                    <div class="col-4 col-lg-4 mt-3">
+                        <input type="text" name="name" class="form-control" disabled>
+                    </div>
+                    <div class="col-4 col-lg-4 mt-3">
+                        <input type="text" name="text2" class="form-control" disabled>
+                    </div>
+                    <div class="col-4 col-lg-4 mt-3">
+                        <input type="text" name="text2" class="form-control" disabled>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2 col-lg-1 mt-3">
+                <button class="btn btn-warning float-end"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 70px;" name="comment"></textarea>
+                    <label for="floatingTextarea2">Комментарии к продукту</label>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12 col-lg-9">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="1" id="flexCheckChecked" required>
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Нажимая кнопку "Отправить", вы принимаете условия обработки персональных данных.
+                    </label>
+                  </div>
+            </div>
+            <div class="col-12 col-lg-3">
+                <div class="d-grid gap-2">
+                    <button class="btn btn-warning" type="button"><span>Отправить</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/jquery-3.6.0.min.js"></script>
+</body>
+</html>
